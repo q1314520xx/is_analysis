@@ -1,0 +1,7 @@
+@startuml
+       title 基于GitHub的实验管理平台--查看选课信息用例的顺序图
+       actor users
+       users -> select_course: 查看此用户所有选课信息
+       select_course ->course
+       course --> users:返回所选课程基本信息
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+title 基于GitHub的实验管理平台--学生列表用例的顺序图
+actor users
+users -> semester: 选择学期
+semester -> course: 选择课程
+
+alt 如果users是老师
+    course -> users: 返回可选课程信息（还没有老师选择的课程）
+	users -> course:老师选择课程
+else 如果users是students
+    course -> users: 返回可选课程信息（此课程老师已经选择，\n并且选此课程的学生不超过规定人数）
+    users -> course:学生选择课程
+end
+@enduml
