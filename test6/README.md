@@ -41,5 +41,5 @@
 - ### [“查看用户信息”用例](./用例/查看用户信息.md),[界面](https://q1314520xx.github.io/is_analysis/test6/ui/顶部菜单.html)
 - ### [“登出”用例](./用例/登出.md),[界面](https://q1314520xx.github.io/is_analysis/test6/ui/顶部菜单.html)
 - ### [“登录”用例](./用例/登录.md),[界面](https://q1314520xx.github.io/is_analysis/test6/ui/登录.html)
-- ### [“选课”用例](./用例/登录.md),[界面](https://q1314520xx.github.io/is_analysis/test6/ui/选课.html) 
-- ### [“查看选课”用例](./用例/登录.md),[界面](https://q1314520xx.github.io/is_analysis/test6/ui/查看选课.html)  
+- ### [“选课”用例](./用例/选课.md),[界面](https://q1314520xx.github.io/is_analysis/test6/ui/选课.html) 
+- ### [“查看选课”用例](./用例/查看选课信息.md),[界面](https://q1314520xx.github.io/is_analysis/test6/ui/查看选课信息.html)  
